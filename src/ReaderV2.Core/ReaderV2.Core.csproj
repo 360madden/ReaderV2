@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReaderV2.Models\ReaderV2.Models.csproj" />
+    <ProjectReference Include="..\ReaderV2.Protocol\ReaderV2.Protocol.csproj" />
+  </ItemGroup>
+</Project>
