@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReaderV2.Models\ReaderV2.Models.csproj" />
+    <ProjectReference Include="..\ReaderV2.Core\ReaderV2.Core.csproj" />
+    <ProjectReference Include="..\ReaderV2.Protocol\ReaderV2.Protocol.csproj" />
+  </ItemGroup>
+</Project>
